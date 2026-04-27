@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 function Hero() {
   return (
     <section className="hero">
