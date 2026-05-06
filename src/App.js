@@ -6,7 +6,6 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Publication from "./components/Publication";
 import Contact from "./components/Contact";
-import Timeline from "./components/Timeline";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
       <Projects />
       <Publication />
       <Contact />
-      <Timeline /> 
     </>
   );
 }
