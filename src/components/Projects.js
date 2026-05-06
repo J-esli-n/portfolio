@@ -5,11 +5,13 @@ function Projects() {
     {
       title: "Opti-Blink",
       desc: "Eye Blink Controlled Keyboard for paralysed patients",
+      link: "https://github.com/J-esli-n/vOptiBlink.git"
     },
     {
-      title: "E-Commerce Platform",
-      desc: "Microservices + ML recommendation system",
-    },
+      title: "Weather Now",
+      desc: "Application to know weather predictions across cities",
+      link: "#" // add your repo or live link here
+    }
   ];
 
   return (
@@ -28,6 +30,15 @@ function Projects() {
           >
             <h3>{p.title}</h3>
             <p>{p.desc}</p>
+
+            <a 
+              href={p.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub
+            </a>
           </motion.div>
         ))}
       </div>
