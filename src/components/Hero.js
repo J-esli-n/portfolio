@@ -5,8 +5,10 @@ function Hero() {
       <h2>Full Stack Developer | AI & ML Enthusiast</h2>
 
       <p>
-        Computer Science Engineer passionate about building scalable systems 
-        and solving real-world problems using technology.
+      Building scalable systems and solving real-world problems. <br />
+      Exploring AI-driven solutions with Java and Python. <br />
+      Focused on writing efficient and reliable code.
+      </p>
       </p>
     </section>
   );
